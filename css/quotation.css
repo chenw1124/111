@@ -1,0 +1,45 @@
+.header-content{
+	text-align: center;
+	
+}
+ .header-content h2{
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.content-wap{
+	width: 100%;
+}
+.content-wap table{
+	width: 100%;
+	margin: 0 auto;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	overflow:hidden;
+}
+.content-wap table tr{
+	
+	height: 45px;
+	font-size: 16px;
+	
+}
+.content-wap table tr th,.content-wap table tr td{
+	text-align: center;
+	font-weight: normal !important;
+}
+.content-wap table tr:nth-child(1){
+	color: #8dbeff;
+	font-family: "微软雅黑";
+	background-color: #f5f5f5;
+}
+.content-wap table{border-right:1px solid #e7ecf1;border-bottom:1px solid #e7ecf1} 
+.content-wap table th,
+.content-wap table td
+{border-left:1px solid #e7ecf1;border-top:1px solid #e7ecf1} 
+.foot {
+	text-align: center;
+}
+.foot p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #838383;
+}	

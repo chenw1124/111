@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+}
+.title-wap{
+	
+	text-align: center;	
+}
+.title-wap h2{
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.title-wap p{
+	width: 95%;
+	margin: 0 auto;
+	font-size:14px;
+	color: #838383;
+	text-align: left;
+	font-family: "微软雅黑";
+}
+.content-wap{
+	margin-top: 10px;
+}
+.content-wap .content-ul{
+	height: auto;
+	padding: 0;
+}
+ .content-wap .content-ul li {
+	
+	list-style-type: none;
+	position: relative;
+	
+}
+.content-wap .content-ul li>span:nth-child(1),
+.content-wap .content-ul li>span:nth-child(2){
+	display: inline-block;
+	border: 1px solid red;
+	width: 49%;
+	text-align: center;
+}
+.content-wap .content-ul li>span:nth-child(1){
+	color: #dc9251;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	
+	
+}
+.content-wap .content-ul li>span:nth-child(2){
+	position: absolute;
+	font-size: 20px;
+	}
+.content-wap .content-ul li:nth-child(1){
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+.content-wap .content-ul li:nth-child(n+2){
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid gainsboro;
+}
+.interestRates{
+	
+	font-family: "微软雅黑";
+	color: #8dbeff !important;	
+}
+.time{
+	
+	color: #8dbeff;
+	font-family: "微软雅黑";
+}
+
+.ccw{
+	padding: 0;
+}
+.fourStart{
+	display: inline-block;
+	color: #838383;
+	font-size: 12px;	
+}
+.content-wap .content-ul li:nth-child(1){
+	position: relative;
+}
+.line{
+	position: absolute;
+    top: 7px;
+    left: 50%;
+    opacity: 0.3;
+	height: 35px;
+	border: 1px solid gainsboro;
+	
+}
+.foot{
+	text-align: center;
+	margin-top: 12px;
+	position: relative;
+}
+.foot span{
+	display: inline-block;
+	font-size: 15px;
+	color: #838383;
+	font-family: "微软雅黑";
+}
+.foot img{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}

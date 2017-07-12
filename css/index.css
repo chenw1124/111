@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.header-wap {
+	width: 100%;
+	height: auto;
+	border-bottom: 8px solid #eeeeee;
+}
+
+.header-img {
+	width: 100%;
+	height: 175px;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	position: relative;
+}
+
+.header-img>div {
+	text-align: center;
+	margin: 0px auto;
+}
+
+.user-img {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.user-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.header-img>div>p {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-top: 0px;
+	color: white;
+}
+
+.header-content {
+	width: 100%;
+	text-align: center;
+}
+
+.header-content>div {
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.header-content img {
+	width: 30px;
+	height: 30px;
+}
+
+.header-content p {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-top: 7px;
+	color: #838383;
+	;
+}
+
+.content-wap {
+	width: 100%;
+	height: auto;
+}
+
+.content-wap ul {
+	width: 95%;
+	list-style-type: none;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+.content-wap ul li {
+	border-bottom: 1px solid gainsboro;
+	padding-top: 5px;
+	height: 128px;
+	display: flex;
+}
+
+.content-wap ul li img {
+	width: 115px;
+	height: 115px;
+	
+}
+
+.cup-message {
+	display: inline-block;
+	width: 222px;
+	align-self: center;
+	margin-left: 15px;
+
+}
+
+.cup-message p:nth-child(1) {
+	display: inline-block;
+	
+	font-size: 16px;
+	font-family: "微软雅黑";
+	margin: 0;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.cup-message p:nth-child(2) {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #b1abab;
+	margin: 5px 0 5px 0;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+.cup-message p:nth-child(3) {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #dc9251;
+	margin: 0;
+}
